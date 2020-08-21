@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <title>OneBanc</title>
+  </head>
+  <body style="font-family: Roboto;">
+    <!-- ROW -->
+    <div class="row">
+      <!-- LEFT SIDE -->
+      <div
+        class="col-xl-6 col-12 h"
+        style="
+          background: linear-gradient(to bottom, #027dc2 0%, #015889 100%);
+          border-radius: 0px 0px 120px 0px;
+        "
+      >
+        <div class="mt-5 ml-5">
+          <!-- ONEBANC LOGO -->
+          <img src="./img/logo.png" class="logo" />
+          <br />
+          <br />
+          <!-- HEADING -->
+          <div style="color: white; font-size: 2.3em;">
+            RE: <br />THINK <br />
+            <span
+              id="typewriter"
+              class="typewriter"
+              style="margin-left: 0; position: relative;"
+              ><h1>Cards</h1></span
+            >
+            <br />
+          </div>
+          <!-- SUBHEADING -->
+          <div style="color: white; font-size: 1.2em;">
+            We are a Neo Bank and are here to re-<br />imagine and re-invent
+            Banking. We are cool<br />
+            and simply awesome!
+          </div>
+          <br />
+          <!-- FORM CARD -->
+          <span
+            class="card"
+            style="
+              font-size: 1.2em;
+              background-color: #004da3;
+              color: white;
+              padding: 10px;
+              width: 80%;
+            "
+          >
+            <div id="show" class="hide" style="color: white;">
+              Thanks for sharing your email, we will get back to you soon!
+            </div>
+            <div id="hide">
+              Get an early invitation for our Beta release.<br />
+              <div class="d-flex flex-row">
+                <div class="d-flex flex-col">
+                  <input
+                    id="input"
+                    type="email"
+                    placeholder="Enter Email Address"
+                    style="height: 115%; width: 130%;"
+                  />
+                </div>
+                <div class="d-flex flex-col">
+                  <button
+                    id="sub"
+                    style="
+                      background-color: #00d7e6;
+                      color: white;
+                      margin-left: 0;
+                      height: 115%;
+                      padding-left: 20px;
+                      width: 110%;
+                      padding-right: 20px;
+                    "
+                  >
+                    <img class="arrow" src="./img/arrow.svg" />
+                  </button>
+                  <span
+                    style="
+                      color: tomato;
+                      border-style: solid;
+                      border-radius: 5px;
+                      padding: 5px;
+                      border-color: tomato;
+                    "
+                    id="req"
+                    class="hide ml-3"
+                    >Required</span
+                  >
+                  <span
+                    style="
+                      padding: 5px;
+                      border-radius: 5px;
+                      color: tomato;
+                      border-style: solid;
+                      border-color: tomato;
+                    "
+                    id="inv"
+                    class="hide ml-3"
+                    >Invalid</span
+                  >
+                </div>
+              </div>
+            </div>
+          </span>
+
+          <!-- MOBONLY-hideshow -->
+          <div class="col-12 hideshow">
+            <br /><br /><br /><br /><br /><br />
+            <div class="center-mobile">
+              <div style="position: relative; width: 50%;">
+                <img
+                  src="./img/onebanc_man_mob.png"
+                  style="width: 100%; margin-left: 35%;"
+                />
+                <!-- ICONS -->
+                <img
+                  style="bottom: 10%; right: 75%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/bank-cards.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 40%; right: 75%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/duration-finance.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 85%; right: 60%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/bullish.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 110%; right: 25%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/customer-insight.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 110%; right: -10%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/tax.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 92%; right: -40%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/mobile-payment.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 60%; right: -60%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/online-support.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 10%; right: -65%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/money-bag-yen.png"
+                />
+              </div>
+            </div>
+          </div>
+          <!--  -->
+
+          <br /><br />
+          <!-- APP QR  -->
+          <span class="center-mobile">
+            <img src="./img/qr.png" />
+          </span>
+          <br /><br />
+          <!-- TERMS AND COND -->
+          <div style="color: white; font-size: 0.7em;" class="center-mobile">
+            Terms & Conditions | Privacy Policy<br />
+            2020 © OneBanc Technologies Pvt. Ltd.
+          </div>
+        </div>
+      </div>
+
+      <!-- CURVE IN MIDDLE -->
+      <div class="col showhide">
+        <img
+          src="./img/download.svg"
+          style="margin-left: -127px; height: 130vh;"
+        />
+      </div>
+      <!-- RIGHT SIDE -->
+      <div class="col-5 showhide">
+        <div class="row">
+          <div class="col" style="margin-top: 250px; margin-left: -50px;">
+            <!-- REGULAR BANK -->
+            <div style="position: relative;">
+              <img src="./img/regular_bank.png" style="width: 65%;" /><br />
+
+              <!-- ICONS -->
+              <img
+                style="bottom: 50%; right: 100%; position: absolute;"
+                src="https://img.icons8.com/ultraviolet/40/000000/bank-cards.png"
+              />
+              <img
+                class="zoom"
+                style="bottom: 70%; right: 130%; position: absolute;"
+                src="https://img.icons8.com/ultraviolet/40/000000/duration-finance.png"
+              />
+              <img
+                class="zoom"
+                style="bottom: 95%; right: 120%; position: absolute;"
+                src="https://img.icons8.com/ultraviolet/40/000000/bullish.png"
+              />
+              <img
+                class="zoom"
+                style="bottom: 115%; right: 90%; position: absolute;"
+                src="https://img.icons8.com/ultraviolet/40/000000/customer-insight.png"
+              />
+              <img
+                class="zoom"
+                style="bottom: 120%; right: 40%; position: absolute;"
+                src="https://img.icons8.com/ultraviolet/40/000000/tax.png"
+              />
+              <img
+                class="zoom"
+                style="bottom: 100%; right: 10%; position: absolute;"
+                src="https://img.icons8.com/ultraviolet/40/000000/mobile-payment.png"
+              />
+              <img
+                class="zoom"
+                style="bottom: 75%; right: 0%; position: absolute;"
+                src="https://img.icons8.com/ultraviolet/40/000000/online-support.png"
+              />
+              <img
+                class="zoom"
+                style="bottom: 50%; right: 5%; position: absolute;"
+                src="https://img.icons8.com/ultraviolet/40/000000/money-bag-yen.png"
+              />
+            </div>
+
+            <span
+              style="font-family: cursive; font-weight: 50; font-size: 1.5em;"
+            >
+              #RegularBank
+            </span>
+          </div>
+
+          <!-- DASH -->
+          <div
+            class="col"
+            style="margin-top: 150px; height: 100px; margin-right: -50px;"
+          >
+            <img src="./img/dash.png" />
+          </div>
+
+          <!-- one banc man -->
+          <div class="col" style="margin-top: 250px;">
+            <div style="margin-left: -70%;">
+              <div style="position: relative;">
+                <img
+                  src="./img/onebanc_man.png"
+                  style="width: 47%; margin-right: 20%;"
+                />
+                <!-- 2  -->
+                <img
+                  style="position: absolute; bottom: 70%; right: 25%;"
+                  src="./img/right.png"
+                />
+                <img
+                  style="
+                    position: absolute;
+                    bottom: 70%;
+                    right: 65%;
+                    transform: rotateY(180deg);
+                  "
+                  src="./img/left.png"
+                />
+
+                <!-- ICONS -->
+                <img
+                  class="zoom"
+                  style="bottom: 90%; right: 53%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/bank-cards.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 110%; right: 60%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/duration-finance.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 110%; right: 42%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/bullish.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 130%; right: 55%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/customer-insight.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 130%; right: 30%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/tax.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 130%; right: 75%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/mobile-payment.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 150%; right: 65%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/online-support.png"
+                />
+                <img
+                  class="zoom"
+                  style="bottom: 150%; right: 40%; position: absolute;"
+                  src="https://img.icons8.com/ultraviolet/40/000000/money-bag-yen.png"
+                />
+              </div>
+
+              <span
+                style="font-family: cursive; font-weight: 50; font-size: 1.5em;"
+              >
+                #OneBanc
+              </span>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var btn = document.getElementById("sub");
+      var hide = document.getElementById("hide");
+      var show = document.getElementById("show");
+      function validateEmail(email) {
+        const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+      }
+      var req = document.getElementById("req");
+      var inv = document.getElementById("inv");
+
+      btn.addEventListener("click", function () {
+        var email = document.getElementById("input").value;
+        req.classList = "hide";
+        inv.classList = "hide";
+        if (email == "") {
+          //   alert("Required");
+          req.classList = " ml-3 mt-1";
+        } else if (!validateEmail(email)) {
+          //   alert("Invalid");
+          inv.classList = " ml-3 mt-1";
+        } else {
+          hide.classList = "hide";
+          show.classList = "";
+        }
+      });
+    </script>
+    <script>
+      var words = [
+        "PAYMENTS",
+        "LOANS",
+        "SUPPORT",
+        "REWARDS",
+        "SAVINGS",
+        "INVESTMENT",
+        "FOREX",
+        "ANALYTICS",
+      ];
+      var index = 0;
+
+      document
+        .getElementById("typewriter")
+        .addEventListener("webkitAnimationEnd", changeTxt);
+
+      document
+        .getElementById("typewriter")
+        .addEventListener("animationend", changeTxt);
+
+      function changeTxt(e) {
+        _h1 = this.getElementsByTagName("h1")[0];
+        _h1.style.webkitAnimation = "none";
+        setTimeout(function () {
+          _h1.innerHTML = words[index];
+          var speed = (3.5 * words[index].length) / 10;
+          _h1.style.webkitAnimation =
+            "typing " +
+            // + speed
+            "3.5s steps(30, end), blink-caret 0.5s step-end ";
+          index === words.length - 1 ? (index = 0) : index++;
+        }, 1000);
+      }
+    </script>
+  </body>
+</html>
