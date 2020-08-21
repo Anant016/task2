@@ -15,3 +15,4 @@
 
 1. Sync the text coming with icons highlightening
 2. Size of each component can be inc/dec accordingly (I've taken estimation)
+3. Looping and highlihting each icon automatically.
