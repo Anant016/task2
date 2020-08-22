@@ -69,6 +69,15 @@
   transform: scale(1.1);
 }
 
+.blink_me {
+  animation: blinker 3.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 .shake {
   animation: shake 1s;
 }

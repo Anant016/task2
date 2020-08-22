@@ -8,11 +8,9 @@
 # Extra
 
 1. Form Validation Done
-2. Icons on hover show 3d zoom effect
-3. Used gradient color
+2. Used gradient color
 
 # Scope of Improvements
 
 1. Sync the text coming with icons highlightening
 2. Size of each component can be inc/dec accordingly (I've taken estimation)
-3. Looping and highlihting each icon automatically.
