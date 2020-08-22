@@ -1,15 +1,25 @@
 .hideshow {
   display: none;
 }
+.hideshow2 {
+  display: none;
+}
 .h {
   height: 135vh;
 }
+
+/* showhide -> show to hide for mobile
+hideshow -> hide to show for mobile
+*/
 @media screen and (max-width: 1175px) {
   .showhide {
     display: none;
   }
   .hideshow {
     display: block;
+  }
+  .hideshow2 {
+    display: inline;
   }
   .center-mobile {
     text-align: center;

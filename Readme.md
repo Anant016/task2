@@ -4,6 +4,7 @@
 2. Hide Right Side.
 3. Add New One Banc Man below the Input.
 4. Managing vertical height for left bg color
+5. Handled SubHeading
 
 # Extra
 
@@ -13,4 +14,4 @@
 
 # Scope of Improvements
 
-1. Size of each component can be inc/dec accordingly (I've taken estimation)
+1. Size of each component can be inc/dec accordingly and in mobile view(I've taken estimation)
