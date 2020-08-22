@@ -97,7 +97,7 @@
                       border-color: tomato;
                     "
                     id="req"
-                    class="hide ml-3"
+                    class="hide"
                     >Required</span
                   >
                   <span
@@ -109,7 +109,7 @@
                       border-color: tomato;
                     "
                     id="inv"
-                    class="hide ml-3"
+                    class="hide"
                     >Invalid</span
                   >
                 </div>
@@ -476,10 +476,10 @@
         inv.classList = "hide";
         if (email == "") {
           //   alert("Required");
-          req.classList = " ml-3 mt-1";
+          req.classList = " ml-3 mt-1 shake";
         } else if (!validateEmail(email)) {
           //   alert("Invalid");
-          inv.classList = " ml-3 mt-1";
+          inv.classList = " ml-3 mt-1 shake";
         } else {
           hide.classList = "hide";
           show.classList = "";
