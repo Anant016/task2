@@ -8,9 +8,9 @@
 # Extra
 
 1. Form Validation Done
-2. Used gradient color
+2. Blinking of icons Done
+3. Used gradient color
 
 # Scope of Improvements
 
-1. Sync the text coming with icons highlightening
-2. Size of each component can be inc/dec accordingly (I've taken estimation)
+1. Size of each component can be inc/dec accordingly (I've taken estimation)
